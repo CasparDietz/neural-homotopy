@@ -1,0 +1,8 @@
+# LHC/src/CMakeLists.txt
+add_executable(data_sampler data_sampler.cxx)
+add_executable(connectivity connectivity.cxx)
+add_executable(anchors anchors.cxx)
+add_executable(labels labels.cxx)
+add_executable(evaluate evaluate.cxx)
+add_executable(evaluate_T evaluate_T.cxx)
+add_executable(data_sampler_with_metadata data_sampler_with_metadata.cxx)
